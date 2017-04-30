@@ -51,13 +51,14 @@
 			    <input type="text" name="name" placeholder="Your Name" style="width: 300px;">
 			    <input type="email" name="_replyto" placeholder="Your Email" style="width: 300px;">
 			    <input type="hidden" name="_subject" value="Website Contact" />
-			    <textarea name="message" placeholder="Your Message" style="width: 500px;"></textarea>
+			    <input type="hidden" name="_next" value="//soexcited.com/home.html" />
+			    <textarea name="message" placeholder="Your Message" style="width: 500px; height:150px;"></textarea>
 			    <input type="text" name="_gotcha" style="display:none" />
 			    <input type="submit" value="Send">
 			</form>
 			<script>
 			    var contactform =  document.getElementById('contactform');
-			    contactform.setAttribute('action', '//formspree.io/' + 'your' + '@' + 'email' + '.' + 'com');
+			    contactform.setAttribute('action', '//formspree.io/' + 'ko' + '@' + 'soexcited' + '.' + 'com');
 			</script>
 			</p>
 		</td>
